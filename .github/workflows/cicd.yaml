@@ -1,4 +1,4 @@
-name: First-GHA-test
+name: First-GHA-test1
 on:
    push
 jobs:
