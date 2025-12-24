@@ -1,4 +1,4 @@
-name: First-GHA-test1
+name: First-GHA-test
 on:
    push
 jobs:
@@ -6,5 +6,5 @@ jobs:
       runs-on: ubuntu-latest
       steps:
        - name: message
-         run: echo"welcome to the GHA by batch-16 Champs"
+         run: echo "welcome to the GHA by batch-16 Champs"
      
