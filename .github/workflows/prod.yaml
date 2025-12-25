@@ -1,0 +1,9 @@
+name: gha-self-hosted
+on:
+ push
+jobs: gha-self-job
+  runs-on: self-hosted
+   steps:
+     - name: message
+       run: echo "gha for runnig through self-hosted"
+  
