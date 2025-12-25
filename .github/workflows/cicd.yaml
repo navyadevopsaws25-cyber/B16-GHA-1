@@ -1,6 +1,9 @@
 name: First-GHA-test
 on:
-   push
+   push:
+     branches: 
+       -main 
+         workflow-dispatch
 jobs:
     b16-first-job:
       runs-on: ubuntu-latest
