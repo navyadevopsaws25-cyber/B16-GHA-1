@@ -1,8 +1,0 @@
-name: test
-on:
- push
-jobs: test-job-1:
-   runs-on: ubuntu-latest
-   steps:
-     -name: message
-      run: echo "display test repo"
