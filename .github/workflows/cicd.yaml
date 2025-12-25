@@ -1,6 +1,6 @@
 name: First-GHA-test
 on:
-   push:
+   push
 jobs:
     b16-first-job:
       runs-on: self-hosted
