@@ -3,7 +3,7 @@ on:
    push:
 jobs:
     b16-first-job:
-      runs-on: ubuntu-latest
+      runs-on: self-hosted
       steps:
        - name: message
          run: echo "welcome to the GHA by batch-16 Champs"
